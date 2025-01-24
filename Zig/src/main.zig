@@ -8,4 +8,8 @@ pub fn main() !void {
     var random2 = std.Random.DefaultPrng.init(@as(u64, @abs(std.time.milliTimestamp())));
     const num2 = random2.random().int(i32);
     std.debug.print("Random number: {}\tType: {}\n", .{ num2, @TypeOf(num2) });
+
+    var crypto_random = std.crypto.random;
+    const num3 = crypto_random.int(i128);
+    std.debug.print("Random number: {}\tType: {}\n", .{ num3, @TypeOf(num3) });
 }

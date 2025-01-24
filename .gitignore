@@ -54,6 +54,7 @@ Thumbs.db
 *~
 *.tmp
 # Zig specific
+
 zig-cache/
 zig-out/
 /release/
@@ -67,4 +68,3 @@ zig-out/
 *.so
 *.dylib
 
-Zig/zig-out

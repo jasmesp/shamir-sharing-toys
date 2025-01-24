@@ -3,6 +3,9 @@
 #include <string.h>
 #include <time.h>
 #include <stdint.h>
+#include <CommonCrypto/CommonRandom.h>
+
+
 
 #define PRIME 2147483647  // A large prime number for mod operations
 

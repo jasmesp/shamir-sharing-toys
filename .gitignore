@@ -53,3 +53,16 @@ Thumbs.db
 *.swp
 *~
 *.tmp
+# Zig specific
+zig-cache/
+zig-out/
+/release/
+/debug/
+*.exe
+*.pdb
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib

@@ -68,3 +68,28 @@ zig-out/
 *.so
 *.dylib
 
+# C++ specific
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.gch
+*.pch
+*.dep
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.sln.docstates
+*.aps
+*.ncb
+*.opendb
+*.cachefile
+*.VC.VC.opendb

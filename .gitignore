@@ -66,3 +66,5 @@ zig-out/
 *.dll
 *.so
 *.dylib
+
+Zig/zig-out

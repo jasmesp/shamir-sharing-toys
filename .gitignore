@@ -93,3 +93,12 @@ zig-out/
 *.opendb
 *.cachefile
 *.VC.VC.opendb
+# Mojo specific
+__pycache__/
+*.mojo.so
+.mojo/
+.mojoc/
+*.mojoc
+*.mojo.cache
+build/
+dist/
